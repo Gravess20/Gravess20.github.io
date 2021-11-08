@@ -10,7 +10,8 @@ body {
   margin: 50px;
   border-style: solid;
   border-width: 4px;
-  background-color: #0E242E;
+  border-radius: 25px;
+  background-image: linear-gradient(#0E242E, #1B3C4B);
   border-color: black;
   text-align: center;
   font-size: 30px;
@@ -79,7 +80,3 @@ body {
 	float: left;
 	padding: 3px 10px 1px 10px;
 }
-
-
-
-
