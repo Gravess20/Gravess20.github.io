@@ -1,7 +1,8 @@
 body {
   font-family: Georgia, Arial, Helvetica, sans-serif;
   background: #1B3C4B ;
-  color: white;
+  color: #dddddd;
+  margin: 10% 5%;
 }
 /* Header*/
 .name {
@@ -24,7 +25,7 @@ body {
   border-bottom: solid 2px black;
 }
 
-#jobs p{
+.jobs p{
   padding-left: 20px;
   padding-bottom: 20px;
 }
@@ -35,41 +36,37 @@ body {
   
 }
 
-#jobs {
+.jobs {
   border-bottom: solid 2px black;
 }
 /* Footer*/
-#contact {
+.contact {
 	height: 20px;
 	width: 100%;
 	margin: 5px 0;
-	padding-left: 10px;
+	padding-left: 20px;
 	padding-top: 0px;
     font-weight: 800;
 }
 
-#contact ul {
+.contact ul {
 	list-style: none;
 	float: left;
-	padding-left: 10px;
+	padding-left: 20px;
 }
 
-#contact li {
+.contact li {
 	float: left;
-	border-right: solid 1px white;
-	padding: 0px 15px;
+	border-right: solid 1px #dddddd;
+	padding: 0px 20px;
 }
 
-#contact li:last-child {
+.contact li:last-child {
 	border-right: none;
 }
 
-#contact li p {
-	font-size: .7em;
+.contact li p {
+	font-size: 10px;
 	float: left;
-	padding: 7px 5px 0px 5px;
+	padding: 3px 10px 1px 10px;
 }
-
-
-
-
